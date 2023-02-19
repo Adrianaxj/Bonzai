@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Components/social_buttons.css" />
+    <link rel="stylesheet" href="../Components/navbar.css" />
+    <link rel="stylesheet" href="../Components/text.css" />
+    <link rel="stylesheet" href="bokning.css" />
+</head>
+<body>
+    <section class="navbar_text">
+        <a class="menu__item" href="../index.html">HOTELL</a>
+        <a class="menu__item" href="#RUM">RUM</a>
+        <a class="menu__item" href="#BOKNING">BOKNING</a>
+        <a class="menu__item" href="#GALLERI">GALLERI</a>
+        <a class="menu__item" href="#LOGGA IN">LOGGA IN</a>  
+    </section>
+
+    <section class="bok">
+        <div class="date">
+            <input type="date" id="datein" name="date">
+            <input type="date" id="dateut" name="date">
+            <select id="room">
+                <option value="1">1 Rum</option>
+                <option value="2">2 Rum</option>
+                <option value="3">3 Rum</option>
+                <option value="3">4 Rum</option>
+            </select>
+            <select id="adults">
+                <option value="1">1 Vuxen</option>
+                <option value="2">2 Vuxna</option>
+                <option value="3">3 Vuxna</option>
+                <option value="3">4 Vuxna</option>
+            </select>
+            <select id="kids">
+                <option value="1">1 Barn</option>
+                <option value="2">2 Barn</option>
+                <option value="3">3 Barn</option>
+                <option value="3">4 Barn</option>
+                <input type="text" placeholder="SÖK">
+            </select>
+        </div>
+    </section>
+
+
+    <section class="cards">
+        <article class="card card-item">
+            <img class="card_img" src="../Images/01-day.jpg" />
+            <h2>Standard Small Rum</h2>
+            <p class="card_text text">Standard small-rum är ett bekvämt rum.Självklart med hög komfort och det mest du kan behöva men på en något mindre yta,medfantastisk utsikt oct till ett lägre pris. Rummer har dubbelsäng på 160cm bred.Wi-fi samt vår fina hotellfrukost är förstås inkluderat.</p>
+            <span class="container">
+                <button class="button">LÄS VIDARE</button>
+                <button class="button">BOKA RUM</button>
+            </span>
+        </article>
+        <article class="card card-item">
+            <img class="card_img" src="../Images/03-day.jpg" />
+            <h2>Premium Sky</h2>
+            <p class="card_text text">Premiumrum med spektakulär utsikt.Charmiga rum med 6bäddar där du har nära till naturen och centrum. Utöver en fantastisk komfort och utsikt inkluderar vår Premiumrum där"lila extra" i form av mousserade vin och chokolad på rummet,badrock och tofflor.</p>
+            <span class="container">
+                <button class="button">LÄS VIDARE</button>
+                <button class="button">BOKA RUM</button>
+            </span>
+        </article>
+        <article class="card card-item">
+            <img class="card_img" src="../Images/02-day.jpg" />
+            <div class="card_body">
+                <h2>Premium Sky Familjerum</h2>
+                <p class="card_text text">Premiumrum med extra bäddsoffa.Vår Premiumrum är placerad med övervåning där du har utsikt över naturen och vatten.Här kan du bara gå ut i tersen och ta en morgon dopp samt älda inne för lite värme.</p>
+                <span class="container">
+                    <button class="button">LÄS VIDARE</button>
+                    <button class="button">BOKA RUM</button>
+                </span>
+            </div>
+        </article>
+    </section>
+        
+    <div class="social_buttons">
+        <img src="../Images/youtube.png" />
+        <img src="../Images/facebook.png" />
+        <img src="../Images/instagram.png" />
+        <img src="../Images/twitter-sign.png" />
+    </div>
+</body>
+</html>

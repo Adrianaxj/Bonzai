@@ -1,0 +1,42 @@
+* { margin: 0px;}
+
+body {
+  background-color: #F9F9F9;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+
+}
+
+.date {
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.button {
+  color: black;
+  background-color: #39bd7d;
+}
+
+.card {
+  background-color: #f4f4f4;
+}
+
+.card_img {
+  width: 100%;
+}
+
+.card_body {
+  padding: 10px 10px 0px 10px;
+}
