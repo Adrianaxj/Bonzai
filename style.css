@@ -18,15 +18,6 @@
   justify-content: center;
 }
 
-/* .text_card {
-  width: 45%;
-  text-align: center;
-  font-size: medium;
-  position: absolute;
-  top: 10px;
-}  */
-
-
 
 @media screen and (max-width: 1024px) {
   .logo {
