@@ -6,9 +6,7 @@
 
 }
 
-.menu__item {
-  padding: 20px;
-}
+
 
 a {
   text-decoration: none;
@@ -24,9 +22,17 @@ a:hover {
 
 
 
-@media only screen and (min-width: 520px)  {
-  .navbar__container {
 
+@media screen and (max-width: 520px ) {
+  .menu__item {
+    padding: 5px;
+  }
+
+}
+
+@media screen and (min-width: 521px ){
+  .menu__item {
+    padding: 20px;
   }
 }
 

@@ -9,19 +9,34 @@ body {
   justify-content: space-between;
 }
 
-.cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 50px;
-
+@media screen and (max-width: 470px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 10px;
+  }
 }
 
+@media screen and (min-width: 471px ) and (max-width: 620px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 621px ) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 50px;
+  }
+}
+
+
 .date {
-  display: flex;
+  display: block;
   padding: 20px;
-  text-align: center;
-  margin: 10px;
-  justify-content: space-between;
 }
 
 .button {
